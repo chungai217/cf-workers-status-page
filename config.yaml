@@ -31,6 +31,18 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+    
+  - id: ERP-SYSTEM
+    name: ERP SYSTEM
+    url: 'https://172.105.127.190/jsf/login.faces'
+    method: GET
+    expectStatus: 200
+    
+  - id: WEBPOS
+    name: WEBPOS
+    url: 'https://webpos.openshop.com.hk'
+    method: GET
+    expectStatus: 200
 
   - id: 2000fun-com
     name: 2000fun.com
