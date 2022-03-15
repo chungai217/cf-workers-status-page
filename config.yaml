@@ -34,7 +34,7 @@ monitors:
     
   - id: ERP-SYSTEM-2
     name: ERP SYSTEM
-    url: 'http://172.105.127.190/jsf/login.faces'
+    url: 'http://172.105.127.190'
     method: GET
     expectStatus: 200
     
@@ -43,9 +43,3 @@ monitors:
     url: 'https://webpos.openshop.com.hk'
     method: GET
     expectStatus: 403
-
-  - id: 2000fun-com
-    name: 2000fun.com
-    url: 'https://www.2000fun.com'
-    method: GET
-    expectStatus: 200
