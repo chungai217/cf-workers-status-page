@@ -37,6 +37,7 @@ monitors:
     url: 'http://172.105.127.190'
     method: GET
     expectStatus: 200
+    followRedirect: true
     
   - id: webpos-openshop-com-hk
     name: webpos.openshop.com.hk
